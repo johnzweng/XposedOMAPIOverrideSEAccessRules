@@ -1,5 +1,5 @@
-# *"Override OMAPI SE AccessControl"*
-## Xposed Module 
+# Override OMAPI SE AccessControl
+### Xposed Module 
 
 ### Module to be used with OpenMobile API 
 Tested with Android 6.0.0 and OMAPI v2.05
@@ -24,7 +24,7 @@ Tested with Android 6.0.0 and OMAPI v2.05
 - any calls to the Open Mobile API from the app specified in this constant, will always be granted  access to the SE no matter what the access rules in the SE itself say
 
 
-### Reasons why it may fail:
+### Reasons why it might fail:
 - your device doesn't have OpenMobile API (SmartcardService.apk) installed
 - the OMAPI version in your device uses code obfuscation (proguard, or similiar)
 - the OMAPI version in your device is a different one, than the one I tested with (3.0, 2.05)
